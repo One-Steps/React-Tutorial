@@ -30,24 +30,17 @@ export default function Home() {
         <div className={styles.grid}>
           <Link href="/quickstart">
             <h2>
-              QuickStartページ <span>-&gt;</span>
+              QuickStart <span>-&gt;</span>
             </h2>
-            <p>ドキュメント：https://ja.react.dev/learn</p>
+            <p style={{ marginTop: 4 }}>コンポーネントの作成とネスト</p>
           </Link>
 
-          <a
-            href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <Link href="/quickstart/data">
             <h2>
-              Learn <span>-&gt;</span>
+              QuickStart <span>-&gt;</span>
             </h2>
-            <p>
-              Learn about Next.js in an interactive course with&nbsp;quizzes!
-            </p>
-          </a>
+            <p style={{ marginTop: 4 }}>データの表示</p>
+          </Link>
         </div>
       </main>
     </>
