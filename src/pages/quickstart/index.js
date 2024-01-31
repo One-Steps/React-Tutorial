@@ -1,7 +1,3 @@
-import React from "react";
-
-// コンポーネントの作成とネスト セクション用
-
 export default function QuickStartPage() {
   return (
     <div
