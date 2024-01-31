@@ -1,5 +1,7 @@
 import React from "react";
 
+// コンポーネントの作成とネスト セクション用
+
 export default function QuickStartPage() {
   return (
     <div
@@ -12,11 +14,12 @@ export default function QuickStartPage() {
         minHeight: "100vh",
       }}
     >
-      <h1>クイックスタート用ページ</h1>
-      <p>
-        This is a quick start page. You can edit it at{" "}
-        <code>src/pages/quickstart.js</code>.
-      </p>
+      <h1>クイックスタート - React</h1>
+      <h2>コンポーネントの作成とネスト セクション用</h2>
+
+      <h3 style={{ marginTop: 20 }}>TODO</h3>
+      <p>1.MyButtonコンポーネントを作成</p>
+      <p>2.MyButtonコンポーネントをネストして画面に表示</p>
       {/* MyButtonコンポーネントをネスト */}
     </div>
   );
